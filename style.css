@@ -275,6 +275,12 @@ width: 960px;
   height: 100vh;
   background-color: #f1f1f1;
 }
+.containerInsideSecond {
+  padding: 0 70px 0 70px; 
+  display:flex; 
+  width: 100%;
+  flex-wrap: wrap;
+}
 .box:hover {
   transform: scale(1.05, 1.05);
   transition-duration: 1s;
