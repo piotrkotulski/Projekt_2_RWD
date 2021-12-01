@@ -89,14 +89,14 @@ h1 {
   margin: 0 auto;
 }
 .firstSpec {
-  width: 148px;
+  height: 148px;
   aspect-ratio: 1/1;
   border-radius: 50%;
   background-image: url("https://cdn.pixabay.com/photo/2021/10/26/07/41/christmas-6742868__480.png");
   background-position: center;
 }
 .secondSpec {
-  width: 148px;
+  height: 148px;
   aspect-ratio: 1/1;
   border-radius: 50%;
   background-image: url(https://cdn.pixabay.com/photo/2021/10/26/07/41/christmas-6742871__480.png);
@@ -177,8 +177,7 @@ text-align: center ;
 .fab {
   display: flex;
   color: white;
-  padding: 0 0 25px 0;
-  
+  padding: 0 0 25px 0;  
 }
 .icons{
   max-width:100%;
@@ -361,4 +360,4 @@ width: 960px;
   padding: 24px 0 0 0;
 }
 
-} 
+ }
