@@ -62,7 +62,7 @@ h1 {
   width: 50%;
 }
 .containerInside {
-  padding: 0 70px 0 70px;
+  padding: 0 30px 0 30px;
 }
 .button {
   max-width: 164px;
@@ -80,6 +80,9 @@ h1 {
   max-width: 100%;
   height: 100%;
   background-color: #f1f1f1;
+}
+.containerInsideSecond {
+  padding: 0 30px 0 30px;
 }
 .specialists {
   display: flex;
@@ -128,7 +131,7 @@ h1 {
   position: relative;
 }
 #offer{
-  padding-left:20px;
+  padding-left:30px;
 }
 span {
   font-size: 12px;
