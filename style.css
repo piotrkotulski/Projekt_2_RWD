@@ -34,10 +34,10 @@ a {
 a.firma {
   font-weight: bold;
 }
-.first {
+.about {
   display: flex;
 }
-.containerFirst {
+.containerAbout {
   display: flex;
   font-family: Roboto;
   justify-content: space-evenly;
@@ -53,7 +53,7 @@ a.firma {
 h1 {
   font-size: 36px;
 }
-.firsSecSizing {
+.aboutSecSizing {
   width: 50%;
 }
 .containerInside {
@@ -69,14 +69,14 @@ h1 {
   display: flex;
   align-items: center;
 }
-.containerSecond {
+.containerEmployee {
   display: flex;
   font-family: Roboto;
   max-width: 100%;
-  height: 100%;
+  height: 100vh;
   background-color: #f1f1f1;
 }
-.containerInsideSecond {
+.containerInsideEmployee {
   padding: 0 30px 0 30px;
 }
 .specialists {
@@ -95,7 +95,7 @@ h1 {
   width: 148px;
   aspect-ratio: 1/1;
   border-radius: 50%;
-  background-image: url("https://pixabay.com/get/gd876abf7188b4a58b0f05d6657465efb4b64ce96f6402c5376e40aafda133e75882b9e01076cd9e01caee72a85d5f33db666c686f2fe94d67bacf9faa6be08c8ef5c7e7c2795d43c73550a077dc7a15c_640.jpg");
+  background-image: url("https://images.unsplash.com/photo-1593085512500-5d55148d6f0d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=alison-wang-mou0S7ViElQ-unsplash.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -112,17 +112,17 @@ h1 {
   font-weight: bold;
   font-size: 18px;
 }
-.opis {
+.descrption {
   max-width: 100%;
 }
-.containerThird {
+.containerOurOffer {
   display: flex;
   font-family: Roboto;
   max-width: 100%;
   background-color: #405d78;
   color: white;
   flex-direction: column;
-  padding:0 0 10px 0;
+  padding: 0 0 10px 0;
 }
 .box {
   display: flex;
@@ -155,7 +155,7 @@ span {
   display: flex;
   flex-flow: column wrap;
 }
-.containerInsideThird {
+.containerInsideOurOffer {
   max-width: 100%;
   display: flex;
   align-items: center;
@@ -213,134 +213,129 @@ p {
     margin: 0px;
     padding: 0px;
   }
-}
-.specialists {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 50px;
-}
-#offer {
-  padding: 0 0 0 70px;
-}
-.containerThird {
-  display: flex;
-  font-family: Roboto;
-  width: 100%;
-  background-color: #405d78;
-  color: white;
-  flex-direction: column;
-}
-.containerInsideThird {
-  width: 550px;
-  display: flex;
-  align-items: center;
-  align-content: center;
-  flex-wrap: wrap;
-  gap: 50px;
-  margin: 0 auto;
-  padding: 30px 0 0 0;
+
+  .specialists {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  #offer {
+    padding: 0 0 0 70px;
+  }
+  .containerOurOffer {
+    display: flex;
+    font-family: Roboto;
+    width: 100%;
+    background-color: #405d78;
+    color: white;
+    flex-direction: column;
+  }
+  .containerInsideOurOffer {
+    width: 550px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 0 auto;
+    padding: 30px 0 0 0;
+  }
 }
 @media screen and (min-width: 960px) {
   .container {
     width: 960px;
   }
-  @media screen and (min-width: 1200px) {
-    .containerInside {
-      padding: 0 70px 0 70px;
-    }
-    .button:hover {
-      color: black;
-      background-color: white;
-      transition-duration: 1s;
-    }
-    .specialists:nth-of-type(even) {
-      text-align: right;
-      flex-direction: row-reverse;
-    }
-    .containerSecond {
-      display: flex;
-      font-family: Roboto;
-      width: 100%;
-      height: 100vh;
-      background-color: #f1f1f1;
-    }
-    .containerInsideSecond {
-      padding: 0 70px 0 70px;
-      display: flex;
-      width: 100%;
-      flex-wrap: wrap;
-    }
-    .box {
-      transition-duration: 1s;
-    }
-    .box:hover {
-      transform: scale(1.05, 1.05);
-    }
-    .specialists {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      gap: 50px;
-    }
-    .firstSpec {
-      height: 148px;
-      aspect-ratio: 1/1;
-    }
-    .secondSpec {
-      height: 148px;
-      aspect-ratio: 1/1;
-    }
-    .opis {
-      width: 600px;
-    }
-    .containerThird {
-      display: flex;
-      font-family: Roboto;
-      width: 100%;
-      height: 100vh;
-      background-color: #405d78;
-      color: white;
-      flex-direction: column;
-    }
-    #offer {
-      padding-left: 70px;
-    }
-    .containerInsideThird {
-      width: 550px;
-      height: 100%;
-      display: flex;
-      align-items: center;
-      align-content: center;
-      flex-wrap: wrap;
-      gap: 50px;
-      margin: 0 auto;
-      padding: 0 0 30px 0;
-    }
-    .footContainer {
-      display: flex;
-      flex-direction: row;
-      max-width: 100%;
-      height: 60px;
-      color: white;
-      background-color: #4e4e4e;
-      font-family: Roboto;
-      font-size: 18px;
-      padding: 0 0 0 20px;
-    }
-    .company {
-      width: 70%;
-      display: flex;
-      flex-direction: row;
-    }
+}
+@media screen and (min-width: 1200px) {
+  .containerInside {
+    padding: 0 70px 0 70px;
+  }
+  .button:hover {
+    color: black;
+    background-color: white;
+    transition-duration: 1s;
+  }
+  .specialists:nth-of-type(even) {
+    text-align: right;
+    flex-direction: row-reverse;
+  }
+  .containerEmployee {
+    display: flex;
+    font-family: Roboto;
+    width: 100%;
+    background-color: #f1f1f1;
+  }
+  .containerInsideEmployee {
+    padding: 0 70px 0 70px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .box {
+    transition-duration: 1s;
+  }
+  .box:hover {
+    transform: scale(1.05, 1.05);
+  }
+  
+  .firstSpec {
+    height: 148px;
+    aspect-ratio: 1/1;
+  }
+  .secondSpec {
+    height: 148px;
+    aspect-ratio: 1/1;
+  }
+  .description {
+    max-width: 600px;
+  }
+  .containerOurOffer {
+    display: flex;
+    font-family: Roboto;
+    width: 100%;
+    height: 100vh;
+    background-color: #405d78;
+    color: white;
+    flex-direction: column;
+  }
+  #offer {
+    padding-left: 70px;
+  }
+  .containerInsideOurOffer {
+    width: 550px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 0 auto;
+    padding: 0 0 30px 0;
+  }
+  .footContainer {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    height: 60px;
+    color: white;
+    background-color: #4e4e4e;
+    font-family: Roboto;
+    font-size: 18px;
+    padding: 0 0 0 20px;
+  }
+  .company {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+  }
 
-    .icons {
-      flex-direction: row;
-      justify-content: flex-end space-around;
-      width: 30%;
-      display: flex;
-      gap: 20px;
-      padding: 24px 0 0 0;
-    }
+  .icons {
+    flex-direction: row;
+    justify-content: flex-end space-around;
+    width: 30%;
+    display: flex;
+    gap: 20px;
+    padding: 24px 0 0 0;
   }
 }
